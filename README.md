@@ -348,17 +348,11 @@ securetransfer/
 │   │       └── TransferView.swift
 │   └── SecureTransfer.xcodeproj
 ├── desktop/
-│   ├── python/
-│   │   ├── desktop_client.py
-│   │   ├── protocol.py
-│   │   ├── crypto.py
-│   │   └── discovery.py
-│   └── rust/  (alternative implementation)
-│       ├── Cargo.toml
-│       └── src/
-│           ├── main.rs
-│           ├── protocol.rs
-│           └── crypto.rs
+│   └── python/
+│       ├── desktop_client.py
+│       ├── protocol.py
+│       ├── crypto.py
+│       └── discovery.py            
 ├── docs/
 │   ├── PROTOCOL.md
 │   ├── SECURITY.md
