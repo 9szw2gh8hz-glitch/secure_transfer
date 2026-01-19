@@ -337,37 +337,6 @@ def chaos_corrupt_chunk(chunk, probability=0.05):
 - Incremental file updates (rsync-like algorithm)
 - Automatic conflict resolution
 
-# Project Structure
-securetransfer/
-├── ios/
-│   ├── SecureTransfer/
-│   │   ├── ConnectionManager.swift
-│   │   ├── ProtocolHandler.swift
-│   │   ├── CryptoHelper.swift
-│   │   ├── DiscoveryService.swift
-│   │   └── Views/
-│   │       ├── ContentView.swift
-│   │       ├── DeviceListView.swift
-│   │       └── TransferView.swift
-│   └── SecureTransfer.xcodeproj
-├── desktop/
-│   └── python/
-│       ├── desktop_client.py
-│       ├── protocol.py
-│       ├── crypto.py
-│       └── discovery.py            
-├── docs/
-│   ├── PROTOCOL.md
-│   ├── SECURITY.md
-│   ├── ARCHITECTURE.md
-│   └── API.md
-├── tests/
-│   ├── test_protocol.py
-│   ├── test_crypto.py
-│   └── integration/
-├── README.md
-└── LICENSE
-
 # License
 MIT License - see LICENSE file for details.
 
